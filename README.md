@@ -1,5 +1,5 @@
 DEMO Link: 
-Github link: 
+Github link: https://github.com/ankit-sf/nagp-telco-churn
 
 
 # Customer Churn Prediction

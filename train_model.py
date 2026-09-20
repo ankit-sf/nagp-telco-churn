@@ -475,7 +475,10 @@ def main():
             "No": 0,
             "Yes": 1,
         },
-        "required_columns": list(X.columns),
+        "required_columns": [
+            column for column in X.columns
+            if column != "customerID"
+        ],
         "metrics": final_metrics,
         "hyperparameter_tuning": {
             "enabled": True,
