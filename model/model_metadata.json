@@ -1,5 +1,5 @@
 {
-    "model_name": "tuned_decision_tree",
+    "model_name": "Tuned Decision Tree",
     "random_state": 42,
     "test_size": 0.3,
     "target_mapping": {
@@ -35,17 +35,18 @@
     },
     "hyperparameter_tuning": {
         "enabled": true,
+        "method": "GridSearchCV",
         "scoring": "f1",
-        "cross_validation_folds": 5,
+        "cross_validation": "5-fold StratifiedKFold",
+        "best_cross_validation_f1": 0.6106615026464433,
         "best_parameters": {
             "classifier__class_weight": "balanced",
             "classifier__criterion": "gini",
             "classifier__max_depth": 4,
             "classifier__min_samples_leaf": 5,
             "classifier__min_samples_split": 2
-        },
-        "best_cross_validation_f1": 0.6106615026464433
+        }
     },
-    "class_imbalance_handling": "The tuning process compared class_weight=None and class_weight='balanced'.",
-    "business_priority": "Recall is important because missing a genuine churner may cause the business to lose a customer without attempting retention."
+    "class_imbalance_handling": "GridSearchCV compared class_weight=None with class_weight='balanced'.",
+    "business_priority": "Recall is important because missing a genuine churner may cause the company to lose the customer without attempting retention."
 }
