@@ -1,4 +1,4 @@
-DEMO Link: 
+DEMO Link: https://1drv.ms/v/c/8279ea02da09e75a/IQC2ymZ2NtO5SIAJn87jg4ZOAZcBKLDC4xVtE_dtrWaRztY?e=lCqoiu
 Github link: https://github.com/ankit-sf/nagp-telco-churn
 
 
@@ -30,6 +30,7 @@ customer_churn_project/
 │   └── build_features.py
 ├── notebook/
 │   └── churn_analysis.py
+│   └── churn_analysis.ipynb
 ├── model/
 │   └── churn_model.pkl
 ├── outputs/
