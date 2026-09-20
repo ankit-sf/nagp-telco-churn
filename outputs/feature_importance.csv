@@ -1,0 +1,57 @@
+feature,importance
+cat__is_month_to_month_Yes,0.6534376742210954
+num__tenure,0.11389471202702402
+cat__InternetService_Fiber optic,0.10882131899745805
+num__MonthlyCharges,0.038365368329463634
+cat__OnlineSecurity_No,0.01991734590485694
+cat__InternetService_No,0.017696648045100145
+cat__TechSupport_No,0.015850240573065402
+cat__PaymentMethod_Electronic check,0.015368777848502373
+cat__Contract_One year,0.006365384374776133
+num__TotalCharges,0.005830667012292516
+cat__Dependents_No,0.004451862666365381
+cat__is_month_to_month_No,0.0
+cat__PaymentMethod_Bank transfer (automatic),0.0
+cat__StreamingMovies_No,0.0
+cat__StreamingMovies_No internet service,0.0
+cat__StreamingMovies_Yes,0.0
+cat__Contract_Month-to-month,0.0
+cat__Contract_Two year,0.0
+cat__PaperlessBilling_No,0.0
+cat__PaperlessBilling_Yes,0.0
+cat__has_streaming_services_No,0.0
+cat__has_security_and_support_Yes,0.0
+cat__has_security_and_support_No,0.0
+cat__PaymentMethod_Credit card (automatic),0.0
+cat__StreamingTV_No internet service,0.0
+cat__PaymentMethod_Mailed check,0.0
+cat__tenure_group_0-12 months,0.0
+cat__tenure_group_13-24 months,0.0
+cat__tenure_group_25-48 months,0.0
+cat__tenure_group_49-72 months,0.0
+cat__StreamingTV_Yes,0.0
+num__SeniorCitizen,0.0
+cat__StreamingTV_No,0.0
+cat__TechSupport_Yes,0.0
+num__avg_charge_per_tenure_month,0.0
+cat__gender_Female,0.0
+cat__gender_Male,0.0
+cat__Partner_No,0.0
+cat__Partner_Yes,0.0
+cat__Dependents_Yes,0.0
+cat__PhoneService_No,0.0
+cat__PhoneService_Yes,0.0
+cat__MultipleLines_No,0.0
+cat__MultipleLines_No phone service,0.0
+cat__MultipleLines_Yes,0.0
+cat__InternetService_DSL,0.0
+cat__OnlineSecurity_No internet service,0.0
+cat__OnlineSecurity_Yes,0.0
+cat__OnlineBackup_No,0.0
+cat__OnlineBackup_No internet service,0.0
+cat__OnlineBackup_Yes,0.0
+cat__DeviceProtection_No,0.0
+cat__DeviceProtection_No internet service,0.0
+cat__DeviceProtection_Yes,0.0
+cat__TechSupport_No internet service,0.0
+cat__has_streaming_services_Yes,0.0
